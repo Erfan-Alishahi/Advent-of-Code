@@ -21,6 +21,8 @@ def combine(string):
     digit_nums = sorted(digit_nums, key=lambda ind: ind[1])
     if len(digit_nums) == 1:
         return int(digit_nums[0][0] * 2)
+    elif len(digit_nums) == 0: # i there is no number in string
+        return 0
     else:
         return int(digit_nums[0][0] + digit_nums[-1][0])
 
