@@ -14,7 +14,7 @@ def combine(string):
         return int(digit_list[0][0] + digit_list[-1][0])
     
 # open text file 
-with open(r'C:\\Users\\Lenovo\\Desktop\\test.txt') as file: # Enter text file path into <.txt>
+with open(r'<.txt>') as file: # Enter text file path into <.txt>
     text = file.readlines()
 # Combine line by line
 Sum = 0
